@@ -1,0 +1,33 @@
+{
+  "name": "ayn",
+  "version": "0.0.1",
+  "description": "by alwen.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "anti-spam": "^0.2.7",
+    "chalk": "^4.1.0",
+    "common-tags": "^1.8.0",
+    "dctr-antispam.js": "^0.1.1",
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "jimp": "^0.16.1",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.3",
+    "msh": "^0.2.4",
+    "quick.db": "^7.1.3",
+    "snekfetch": "^4.0.4"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}

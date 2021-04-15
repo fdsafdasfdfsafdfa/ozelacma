@@ -1,0 +1,55 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      name: "ayn"
+      version: "0.0.1"
+      description: "by alwen."
+      main: "bot.js"
+      scripts: 
+        start: "node bot.js"
+      dependencies: 
+        anti-spam: "^0.2.7"
+        chalk: "^4.1.0"
+        common-tags: "^1.8.0"
+        dctr-antispam.js: "^0.1.1"
+        discord.js: "^12.5.1"
+        express: "^4.17.1"
+        install: "^0.13.0"
+        jimp: "^0.16.1"
+        moment: "^2.29.1"
+        moment-duration-format: "^2.3.2"
+        ms: "^2.1.3"
+        msh: "^0.2.4"
+        quick.db: "^7.1.3"
+        snekfetch: "^4.0.4"
+      engines: 
+        node: "12.x"
+      keywords: 
+        - "node"
+        - "glitch"
+        - "express"
+      gitHead: "6e533ebefd220a7097972bb729c3e89ad3cb2c3c"
+      readme: "ERROR: No README data found!"
+      _id: "ayn@0.0.1"
+    prefix: "/app"
+  3 warn pnpm: 
+    message: "Moving anti-spam that was installed by a different package manager to \"node_modules/.ignored"
+    prefix: "/app"
+  4 error pnpm: 
+    message: 
+      errno: -39
+      code: "ENOTEMPTY"
+      syscall: "rename"
+      path: "/rbd/pnpm-volume/45ec5140-660c-425b-975d-5e9325297713/node_modules/anti-spam"
+      dest: "/rbd/pnpm-volume/45ec5140-660c-425b-975d-5e9325297713/node_modules/.ignored/anti-spam"
+    err: 
+      name: "Error"
+      message: "ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/45ec5140-660c-425b-975d-5e9325297713/node_modules/anti-spam' -> '/rbd/pnpm-volume/45ec5140-660c-425b-975d-5e9325297713/node_modules/.ignored/anti-spam'"
+      code: "ENOTEMPTY"
+      stack: "Error: ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/45ec5140-660c-425b-975d-5e9325297713/node_modules/anti-spam' -> '/rbd/pnpm-volume/45ec5140-660c-425b-975d-5e9325297713/node_modules/.ignored/anti-spam'"
